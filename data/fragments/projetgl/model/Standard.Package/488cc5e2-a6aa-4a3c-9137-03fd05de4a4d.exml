@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modèle" version="4">
+  <OBJECT>
+    <ID name="Modèle" mc="Standard.Package" uid="488cc5e2-a6aa-4a3c-9137-03fd05de4a4d"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modèle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="ff989ab8-b7df-4112-8753-58d46c77abdb"/>
+        <COMPID name="State Machine1" mc="Standard.StateMachine" uid="5766bee0-69c8-4596-a468-f1cff263535b"/>
+        <COMPID name="State Machine2" mc="Standard.StateMachine" uid="a121cb28-0250-4660-b88e-55a19593e4db"/>
+        <COMPID name="State Machine3" mc="Standard.StateMachine" uid="950aaa3f-3297-41c6-90bc-0ceb10d180fc"/>
+        <COMPID name="State Machine4" mc="Standard.StateMachine" uid="9f2270b2-8561-4a42-90f4-2c14e47fcd3b"/>
+      </COMP>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="Instance" mc="Standard.Instance" uid="003e8ecf-01fe-47dc-aeff-a2c2d32a33bc"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Instance]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

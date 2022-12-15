@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ResourceFile" version="4">
+  <OBJECT>
+    <ID name="ResourceFile" mc="Standard.Artifact" uid="92b55025-19de-4caf-a4ef-8a82d28e9caf"/>
+    <PID name="Cas d'utilisation  gestion des commentaire" mc="Standard.Package" uid="d39bfe24-83bb-4822-83ac-aa285656f765"/>
+    <ATTRIBUTES>
+      <ATT name="FileName"></ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ResourceFile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaResource" mc="Infrastructure.Stereotype" uid="00c80378-0001-ac88-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

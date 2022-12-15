@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Messages" version="4">
+  <OBJECT>
+    <ID name="Messages" mc="Standard.Package" uid="340a9f10-10e8-4f5f-9cea-bcd33164c503"/>
+    <PID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Messages]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Question" mc="Standard.Class" uid="171c4fc1-4e19-4610-8993-c79a57ee2b28"/>
+        <COMPID name="Commentaire" mc="Standard.Class" uid="829d5296-ba24-44cf-be42-e46d8fa501f8"/>
+        <COMPID name="Reponse" mc="Standard.Class" uid="f6300789-35eb-4bf2-81dc-10bf4f571583"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

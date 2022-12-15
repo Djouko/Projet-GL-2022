@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GESTION DE COMMUNAUTE" version="4">
+  <OBJECT>
+    <ID name="GESTION DE COMMUNAUTE" mc="Standard.UseCase" uid="6b161ea1-9535-4429-b957-cda6368214b9"/>
+    <PID name="Cas d'utilisation  gestion des questions" mc="Standard.Package" uid="d39bfe24-83bb-4822-83ac-aa285656f765"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GESTION DE COMMUNAUTE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="4f0fab28-5d96-405f-a164-bdc6e35ed51d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="authentification" mc="Standard.UseCase" uid="4cfe8910-b061-4775-98c7-9cf3cd01a011"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9021392f-bf1c-4b2b-90b3-ae166a20066a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[.1)AJOUT
+..a)L'etudiant envoie une requette à l'administrateur
+b) si l'administrateur accepte ou refuse
+ +dans le cas où il accepte:
+-remplir les champs du formulaire d'ajout d'une nouvelle communauté
+-le système verifie si un champ est vide , invalide ou si la communauté existe déjà:dans ce cas "erreur"
+-il valide l'ajout de la nouvelle communauité
+
+     2)MODIFIER UNE COMMUNAUTE
+L'administrateur selectionne la communauté qu'il veut 
+il met a jour les informations valides; si erreur [exception1]
+ 
+    3) CONSULTERL'admin choisi une communauté
+le système lui affiche les informations contenue dans cette communauté
+
+   4) SUPPRESSION
+L'administrateur choisi une communauté qu'il veut supprimer 
+si non valide alors [Exception2]
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ac7b7221-0250-4dd2-a7ab-1105f85ff0bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...reseau 
+etre administrateur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="cf47f438-c0a7-4e7c-9509-f2fd169043a3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...exception1: un message d'erreur apparait relativement à l'erreur rencontré
+exception2:
+les infos de la communauté sont toujours disponible sans communauté renseigné]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="09c219a0-4e01-488e-9798-02176e1f6093"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...L'administrateur s'authentifie]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fa619d12-60be-451d-b8f0-5ac2ca67bd8c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[..mise a jour du système /Base de donné]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

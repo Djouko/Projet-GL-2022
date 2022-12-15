@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cas d'utilisation  gestion des communautés " version="4">
+  <OBJECT>
+    <ID name="Cas d'utilisation  gestion des communautés " mc="Standard.Package" uid="d39bfe24-83bb-4822-83ac-aa285656f765"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Cas d'utilisation  gestion des communautés ]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GESTION DE COMMUNAUTE" mc="Standard.UseCase" uid="6b161ea1-9535-4429-b957-cda6368214b9"/>
+        <COMPID name="administrateur" mc="Standard.Actor" uid="4dbc718d-fbf9-497c-8e64-060e0962db94"/>
+        <COMPID name="Ajouter communauté" mc="Standard.UseCase" uid="f8d25e31-21b8-4b8d-b242-cdbff196e63d"/>
+        <COMPID name="modifier communauté" mc="Standard.UseCase" uid="3ba09075-a5d3-4f13-8967-eccc71908e76"/>
+        <COMPID name="consulter communauté" mc="Standard.UseCase" uid="02a76669-b0a2-43d1-91f2-5a6b4f6db5d8"/>
+        <COMPID name="suppression communauté" mc="Standard.UseCase" uid="296724fd-c7ce-4a33-a2c1-0fb19553543a"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="4cfe8910-b061-4775-98c7-9cf3cd01a011"/>
+        <COMPID name="Gestion des publication" mc="Standard.UseCase" uid="0788fcee-e090-416a-bd0a-7fb64d2650f7"/>
+        <COMPID name="contributeur" mc="Standard.Actor" uid="f01512ce-0118-46cb-b14e-c385abba9165"/>
+        <COMPID name="ajout publication" mc="Standard.UseCase" uid="faec1052-3488-419e-b045-e8bc31d56c92"/>
+        <COMPID name="Modifier publication" mc="Standard.UseCase" uid="b89a3257-d858-4db5-951f-f1eb86d51d59"/>
+        <COMPID name="consulter publication" mc="Standard.UseCase" uid="54dbb927-f9d6-4777-bac8-fd5ec0b4c3b3"/>
+        <COMPID name="supprimer publication" mc="Standard.UseCase" uid="e5c86655-ec2b-402e-a82c-f1b88c0df1f1"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="4c007a9a-9bbd-42dc-a491-9edeb7cb76d5"/>
+        <COMPID name="valider publication" mc="Standard.UseCase" uid="3384d530-79f3-47b3-8a8b-56497c617abd"/>
+        <COMPID name="valider publication" mc="Standard.UseCase" uid="a66a6628-a5e3-417d-8220-3b484978a9a8"/>
+        <COMPID name="valider publication" mc="Standard.UseCase" uid="8aa18420-745e-484d-9e33-f4d6ce90abc7"/>
+        <COMPID name="Authentification" mc="Standard.UseCase" uid="1cbed1f2-3231-4124-983d-0430dcead713"/>
+        <COMPID name="Gestion des commentaires " mc="Standard.UseCase" uid="9c4362d7-c52a-4437-9858-27e2322dad64"/>
+        <COMPID name="consulterCommentaire" mc="Standard.UseCase" uid="f87cb6cf-2f8f-48df-89cd-3fc6da6b7263"/>
+        <COMPID name="modifiercommentaire" mc="Standard.UseCase" uid="264fac5f-7848-4e03-b1c2-7b11d1831591"/>
+        <COMPID name="ajoutCommentaire" mc="Standard.UseCase" uid="ff5f61ec-72b3-4dee-9190-12a69bec31db"/>
+        <COMPID name="supprimerCommentaire" mc="Standard.UseCase" uid="36f800f9-38ce-4a72-80bb-3742f5ca706a"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="9160fbff-4ae3-4a87-b5a4-c3ffa623d1d7"/>
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="c80fac39-a573-4ba8-a2e3-8185aad97115"/>
+        <COMPID name="Gestion de question" mc="Standard.UseCase" uid="8149e604-516b-4c1c-8c27-d8fa4d7ed544"/>
+        <COMPID name="Ajouter une question" mc="Standard.UseCase" uid="f596a374-ddc8-48f6-9756-79d39923ef56"/>
+        <COMPID name="Modifier une question" mc="Standard.UseCase" uid="271f1d26-d0cf-41f0-b4c2-425426046a0b"/>
+        <COMPID name="consulter une question" mc="Standard.UseCase" uid="055343d7-3325-4042-9ef5-02c6e4396b2b"/>
+        <COMPID name="supprimer une question" mc="Standard.UseCase" uid="bc985646-a25d-4846-9b23-a144a72d4510"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="98e113b2-0175-4190-918c-46dfbe319e36"/>
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="2908d96c-d3bc-4975-9a80-3a245d901910"/>
+        <COMPID name="moderateur" mc="Standard.Actor" uid="b7831be5-6850-47e4-b63b-ea71e70b2b57"/>
+        <COMPID name="femer question" mc="Standard.UseCase" uid="eb6580f0-b3d1-40e2-af7e-dce73456ee88"/>
+        <COMPID name="désactiverquestion" mc="Standard.UseCase" uid="4d9c883a-b654-44fc-92db-4fd3314912d8"/>
+        <COMPID name="ResourceFile" mc="Standard.Artifact" uid="92b55025-19de-4caf-a4ef-8a82d28e9caf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation pour gestion de communauté" mc="Standard.UseCaseDiagram" uid="fa931a8e-2903-4eac-b8ef-87c603ebf216"/>
+        <COMPID name="Diagramme de cas d'utilisation gestion des publications" mc="Standard.UseCaseDiagram" uid="59e6a8b5-ae3f-4913-afa4-6c80398c769d"/>
+        <COMPID name="Diagramme cas d'utilisation validé publication" mc="Standard.UseCaseDiagram" uid="4b472dcc-a5b7-4fb2-960f-f0b345c62335"/>
+        <COMPID name="Diagramme de cas d'utilisation Gestion des commentaires" mc="Standard.UseCaseDiagram" uid="af1d4f79-5383-458d-99ef-8f384260ce92"/>
+        <COMPID name="Diagramme de cas d'utilisation gestion de question" mc="Standard.UseCaseDiagram" uid="9cb2e9bc-c6b6-4c59-b613-c4719c104e45"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

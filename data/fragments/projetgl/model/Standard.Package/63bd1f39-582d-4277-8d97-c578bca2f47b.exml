@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Membre" version="4">
+  <OBJECT>
+    <ID name="Membre" mc="Standard.Package" uid="63bd1f39-582d-4277-8d97-c578bca2f47b"/>
+    <PID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Membre]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="6cd18848-979c-48f4-8bdb-0832c155207a"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Proprietes Des Membres" mc="Standard.Package" uid="188085b0-a34b-4ad1-90dc-1fdd01b7e385"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="16035b7d-d0db-44f8-8058-2fa7bffe9bdc"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Transmission" mc="Standard.Package" uid="739c2d7a-08f6-4ee5-87c9-8c4805b406ef"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="fa6186b8-56d6-46da-8d50-bae61c0bbce9"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Messages" mc="Standard.Package" uid="340a9f10-10e8-4f5f-9cea-bcd33164c503"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Etudiant" mc="Standard.Class" uid="0f54ea53-8e24-48ee-a43f-5fe4bcc6177e"/>
+        <COMPID name="Contributeur" mc="Standard.Class" uid="3aac1b23-24d7-4ffd-bfb0-9b4e347f4c5d"/>
+        <COMPID name="Admin" mc="Standard.Class" uid="9d6857b5-ab96-467f-b3bc-388350d839f5"/>
+        <COMPID name="Moderateur" mc="Standard.Class" uid="230f698b-e5a7-471f-ad83-d904e0fa3979"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestion des etudiant" version="4">
+  <OBJECT>
+    <ID name="gestion des etudiant" mc="Standard.Package" uid="27c4f21f-30a6-4161-82a1-62ed8c059118"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gestion des etudiant]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Gestion des membres" mc="Standard.UseCase" uid="d9fbcbaf-db04-4909-8f70-4052df11bbc2"/>
+        <COMPID name="gestion des etudiants" mc="Standard.UseCase" uid="57006dc1-c2e1-4537-a717-348c68662b3a"/>
+        <COMPID name="s'authentifier" mc="Standard.UseCase" uid="6d343b82-cf75-44b2-b8f5-ec13264a836f"/>
+        <COMPID name="administrateur" mc="Standard.Actor" uid="354ad913-ba1f-4470-ad9b-4ec3fabc4aae"/>
+        <COMPID name="Gestion des etudiants" mc="Standard.UseCase" uid="b10e0342-0510-4fcc-8807-187923298570"/>
+        <COMPID name="gestion des communauté" mc="Standard.UseCase" uid="f3ef9a0d-f1ef-4a92-a1dc-4f365ca41013"/>
+        <COMPID name="valider les publications" mc="Standard.UseCase" uid="ecbe4198-6490-4872-af78-4a90905264d4"/>
+        <COMPID name="Administrateur" mc="Standard.Actor" uid="02595f5b-3ba6-455b-b703-146568ab9552"/>
+        <COMPID name="Gestion des questions" mc="Standard.UseCase" uid="b84033d4-d490-40d6-bff7-216f5f80f1d3"/>
+        <COMPID name="Gestion des commentaires" mc="Standard.UseCase" uid="6fe6ae19-6950-4d64-a73f-2ded0bfab713"/>
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="a3477072-6517-419b-85da-a5757f4012f0"/>
+        <COMPID name="Gestion des publications" mc="Standard.UseCase" uid="3d28f791-046d-46df-8f06-b40df3deb51a"/>
+        <COMPID name="contributeur" mc="Standard.Actor" uid="7337141a-37d8-4de2-b993-a55025a10318"/>
+        <COMPID name="moderateur" mc="Standard.Actor" uid="b4af7693-53a2-420d-a7f2-3f5bcf77ddc3"/>
+        <COMPID name="Fermer une question" mc="Standard.UseCase" uid="a478e4b1-1cf6-42fa-9666-ede5e644074c"/>
+        <COMPID name="desactiver une question" mc="Standard.UseCase" uid="84883b20-db4d-42aa-ae1d-557595e006ad"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="e703043f-af59-48fc-9611-bcb4e341b04f"/>
+        <COMPID name="ajouter badge" mc="Standard.UseCase" uid="5e999bb6-3748-4c4e-aa6a-6223a665454f"/>
+        <COMPID name="envoyer une notification" mc="Standard.UseCase" uid="4fb01972-1245-41d5-86dd-2722b765a82f"/>
+        <COMPID name="s'inscrire" mc="Standard.UseCase" uid="2dcca431-7c09-47a6-9d8f-3b25be3e7cc6"/>
+        <COMPID name="consulter" mc="Standard.UseCase" uid="f58f221c-1e52-4ee0-a7ce-9c3c0064c337"/>
+        <COMPID name="visiteur" mc="Standard.Actor" uid="98472ebb-7722-440c-a352-c472b8cb1992"/>
+        <COMPID name="systeme" mc="Standard.Actor" uid="4c62e706-87d2-461a-9320-bf8a7907e2f5"/>
+        <COMPID name="ajouterEtudiant" mc="Standard.UseCase" uid="00f4089a-b183-4d5a-a30e-30a2b187ff35"/>
+        <COMPID name="modifierEtudiant" mc="Standard.UseCase" uid="a9b0a649-d2cd-43b8-a3a7-5838a2331506"/>
+        <COMPID name="supprimerEtudiant" mc="Standard.UseCase" uid="f455e5cd-a343-4bc9-a28b-68c6d3417e45"/>
+        <COMPID name="ajouterRole" mc="Standard.UseCase" uid="ed6af77a-3d63-41e5-8541-d05b96cd92d1"/>
+        <COMPID name="supprimeRole" mc="Standard.UseCase" uid="da78ea36-1d9d-47d3-8931-fabf9c9b72a1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation gestion des membres " mc="Standard.UseCaseDiagram" uid="cf0c8399-5ffc-4efe-b351-03d0789fc27b"/>
+        <COMPID name="Diagramme final" mc="Standard.UseCaseDiagram" uid="97d23320-e146-4ad5-8521-4b07caa477e2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

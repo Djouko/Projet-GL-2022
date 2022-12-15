@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gestion de question" version="4">
+  <OBJECT>
+    <ID name="Gestion de question" mc="Standard.UseCase" uid="8149e604-516b-4c1c-8c27-d8fa4d7ed544"/>
+    <PID name="Cas d'utilisation  gestion des commentaire" mc="Standard.Package" uid="d39bfe24-83bb-4822-83ac-aa285656f765"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Gestion de question]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="a9e5173b-b728-4c27-9862-0441e8005e28"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="authentification" mc="Standard.UseCase" uid="98e113b2-0175-4190-918c-46dfbe319e36"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="35ce86d7-749e-4d2b-b504-56697d80902c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...1 ajout
+ L'etudiant demande le formulaire d' enregidtrement 
+la communauté s'affiche 
+l'etudiant saisi les informations obligatoires du formulaire et valide l'ajout ( en validant l'ajout , il pourra ajouter des prime a sa question pour attirer l'attention des membre), 
+si erreur [exception 1], si la communauté reservé a cette categorie de questtion n'existe pas encore  alors  [exception2]
+lorsque la question est enregistrer l'etudiant a des points de reputation pour la dite question
+
+   2) MODIFICATION
+L'etudiant choisit dans la liste, la question à modifier 
+si durèe d'ajout est superieur a 48H  [exception3]
+SI NON IL MET à JOUR LES INFORMATIONS RELATIVE A CETTE QUESTION ET VALIDE
+
+
+3 )Suppression
+Il suppprime sa question 
+le système verifie si cela est fait dans un  intervalle de 48H  si c'est pas le cas le système génère une exception
+
+  4) CONSULTATION
+Le système affiche la liste des questions 
+puis il choisit sa questgion
+5)dsactiver et fermer
+uniquement le moderateur peut desactiver une question qui n'a aucun rapport avec le site
+il ferme une question a fin pourq'on pusse selectioner une reponses finale a ladite question]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f677aa46-99b3-4a3d-98a9-f1f01571e3a4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[.....avoir une connexion fluide]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8128bbff-97dd-452f-ab81-63586d70b4c9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...L'etudiant s'authentifie
+doit aller sur la plateforme 
+doit appartenir a une communauté]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="27c12be1-5768-4b0f-9a7f-53747ed4459c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...notification
+mise a jour de la base de donnée]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="telephone/ordinateur" version="4">
+  <OBJECT>
+    <ID name="telephone/ordinateur" mc="Standard.Node" uid="7787d464-626e-4d82-99a3-2f993f485997"/>
+    <PID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[telephone/ordinateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestion des etudiants" version="4">
+  <OBJECT>
+    <ID name="gestion des etudiants" mc="Standard.UseCase" uid="57006dc1-c2e1-4537-a717-348c68662b3a"/>
+    <PID name="systeme" mc="Standard.Package" uid="27c4f21f-30a6-4161-82a1-62ed8c059118"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gestion des etudiants]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="291fb87c-b641-4ab1-8144-a646a6852d3a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="s'authentifier" mc="Standard.UseCase" uid="6d343b82-cf75-44b2-b8f5-ec13264a836f"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fec6d899-8115-4067-9669-aff8db57ea10"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...l'administrateur demande la connexion au système 
+le système valide
+l'administrateur demande d'enregistrer un nouvel utilisateur 
+le système retourne une fenètre d'enregistrement
+l'administrateur saisi les informations correspondant au nouvel etudiant
+
+2)Modification
+l'administrateur choisi l'etudiant concerné met a jour les informations a modifier et valide la procédure; si erreur [exception1]
+3)Consulter
+l'administrateur affiche la liste des etudiants puis choisi l'etudiant qu'il voudrait  consulter
+affiche les information relative a cet utilisateur
+
+4)supprimer ou desactiver
+l'admin choisi l'etudiant qu'il aimerait supprimer( respectivement desactivé) ,puis supprime( respectivement desactive) son compte  
+
+5) l'administrateur ajoute des roles aux etudiant en fonction de leurs points de reputation ]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b12aa2af-c924-4f89-a419-538eba06c43a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...exception1 : le système dit que l'utilisateur existe déjà, soit que l'administrateur a oublier de remplir un champs 
+exception 2
+la suppression est seulement logique ( on change la valeur du statut que le pseudo et le mot de passe)]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="91ba61aa-7406-4e63-ba31-01ab13f2436c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...l'administrateur doit s'authentifier]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="1976f36a-d5b1-42df-8f95-8f0a60ca1d5b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...mise a jour de la base de donnée]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

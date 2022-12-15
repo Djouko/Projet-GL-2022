@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transmission" version="4">
+  <OBJECT>
+    <ID name="Transmission" mc="Standard.Package" uid="739c2d7a-08f6-4ee5-87c9-8c4805b406ef"/>
+    <PID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Transmission]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="5bced461-fe0c-4ee9-ab76-5efd09bac7b5"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Messages" mc="Standard.Package" uid="340a9f10-10e8-4f5f-9cea-bcd33164c503"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Publication" mc="Standard.Class" uid="b4f2a2ac-0fd9-4856-a056-3d97fb12c6d5"/>
+        <COMPID name="Notification" mc="Standard.Class" uid="d4049fce-11f0-4936-93a4-677bcf784d3c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

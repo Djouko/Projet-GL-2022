@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sequence" version="4">
+  <OBJECT>
+    <ID name="sequence" mc="Standard.Package" uid="e8873b48-c82a-4f59-a193-398a93fdbc39"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sequence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="f481176a-1915-4097-affb-fc61e8f8ab6f"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="86cfa00d-79b3-4f2c-969b-e690893c7e51"/>
+        <COMPID name="Interaction3" mc="Standard.Interaction" uid="180657e6-6bbe-4daa-9876-772004900258"/>
+        <COMPID name="Interaction2" mc="Standard.Interaction" uid="3f2766fa-7e69-4a2d-bd26-b268e98cfb2a"/>
+        <COMPID name="Interaction4" mc="Standard.Interaction" uid="028a5152-e923-475b-841a-e072c1db071d"/>
+        <COMPID name="Interaction5" mc="Standard.Interaction" uid="1ec60d9c-0835-4333-91fc-9464030d95a8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

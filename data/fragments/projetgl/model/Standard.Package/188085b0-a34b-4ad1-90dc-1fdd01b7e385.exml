@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Proprietes Des Membres" version="4">
+  <OBJECT>
+    <ID name="Proprietes Des Membres" mc="Standard.Package" uid="188085b0-a34b-4ad1-90dc-1fdd01b7e385"/>
+    <PID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Proprietes Des Membres]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="ElementImport" mc="Standard.ElementImport" uid="f45adc3a-0edf-4ec4-96d3-a7b761a13d09"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"><![CDATA[ElementImport]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Messages" mc="Standard.Package" uid="340a9f10-10e8-4f5f-9cea-bcd33164c503"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Badge" mc="Standard.Class" uid="3933a58a-9769-43df-a726-49a6e9e77136"/>
+        <COMPID name="Prime" mc="Standard.Class" uid="5fa932af-413a-471a-a5ac-c8dcfea30349"/>
+        <COMPID name="Photo" mc="Standard.Class" uid="83d5ae91-359a-485c-83c0-fc7644501352"/>
+        <COMPID name="Role" mc="Standard.Class" uid="9eefe695-8d8d-4520-bafa-0156610626d7"/>
+        <COMPID name="Communaute" mc="Standard.Class" uid="1828588c-fb57-481a-8975-b9a8c93c604c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

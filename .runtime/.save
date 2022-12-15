@@ -1,0 +1,19 @@
+#Thu Dec 15 20:03:27 WAT 2022
+org.modelio.app.diagram.editor.OpenedDiagrams13='Diagramme de cas d'utilisation Gestion des commentaires' {af1d4f79-5383-458d-99ef-8f384260ce92} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='Diagramme d'\u00E9tat State Machine3' {4fb8668c-7e4f-4466-9486-828041f07cde} Standard.StateMachineDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams12='Diagramme de cas d'utilisation gestion de question' {9cb2e9bc-c6b6-4c59-b613-c4719c104e45} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams4='Diagramme d'\u00E9tat commentaire' {fa9648b2-5bb6-4c90-b4f1-ae489d7fc9fe} Standard.StateMachineDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams11='Diagramme de cas d'utilisation gestion des publications' {59e6a8b5-ae3f-4913-afa4-6c80398c769d} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme d'\u00E9tat question ' {a7245ae5-12b1-450a-9193-72626aa4bca5} Standard.StateMachineDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams10='Diagramme cas d'utilisation valid\u00E9 publication' {4b472dcc-a5b7-4fb2-960f-f0b345c62335} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2=' digramme d'etat machine  etudiant' {5cf5d35e-80c2-4285-bd3c-bcdc5a717337} Standard.StateMachineDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='diagramme de classe' {a584675f-3e7d-4ef8-8852-26a9dd7ad761} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme d'\u00E9tat communaut\u00E9 ' {273e8033-9e0c-4f66-a67a-57c811e546ae} Standard.StateMachineDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/Mariane/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/Mariane/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/Mariane/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/Mariane/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams9='Diagramme de cas d'utilisation pour gestion de communaut\u00E9' {fa931a8e-2903-4eac-b8ef-87c603ebf216} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams8='Diagramme de cas d'utilisation gestion des membres ' {cf0c8399-5ffc-4efe-b351-03d0789fc27b} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='Diagramme final' {97d23320-e146-4ad5-8521-4b07caa477e2} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='Diagramme d'objet vrai' {a71422cc-fa5f-4eb4-b286-6ffd660406a9} Standard.ObjectDiagram

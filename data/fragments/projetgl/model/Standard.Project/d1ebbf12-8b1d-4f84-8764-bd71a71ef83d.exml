@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projetgl" version="4">
+  <OBJECT>
+    <ID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[projetgl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="projetgl" mc="Standard.Package" uid="cfcc1c24-0764-4299-b3de-934b9c558e59"/>
+        <COMPID name="Modèle" mc="Standard.Package" uid="488cc5e2-a6aa-4a3c-9137-03fd05de4a4d"/>
+        <COMPID name="Modèle1" mc="Standard.Package" uid="72dc93ed-ba6b-477b-bcbc-9714002bbcc2"/>
+        <COMPID name="objet" mc="Standard.Package" uid="b5c28bbe-8010-4e53-a9b5-19f708e04ee2"/>
+        <COMPID name="Cas d'utilisation  gestion des communautés " mc="Standard.Package" uid="d39bfe24-83bb-4822-83ac-aa285656f765"/>
+        <COMPID name="gestion des etudiant" mc="Standard.Package" uid="27c4f21f-30a6-4161-82a1-62ed8c059118"/>
+        <COMPID name="projet1" mc="Standard.Package" uid="f7860084-9337-464f-8e7a-b7b6f18577d9"/>
+        <COMPID name="sequence" mc="Standard.Package" uid="e8873b48-c82a-4f59-a193-398a93fdbc39"/>
+        <COMPID name="Modèle" mc="Standard.Package" uid="9b01070b-b6cf-4534-8773-4ee886576e82"/>
+        <COMPID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="projetgl" mc="Infrastructure.DiagramSet" uid="5f4117f7-af25-433d-b640-76d880994573"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

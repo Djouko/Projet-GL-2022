@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="package and deployment" version="4">
+  <OBJECT>
+    <ID name="package and deployment" mc="Standard.Package" uid="2d104509-0852-45b1-b6c1-5ad4b26dea8b"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[package and deployment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilasateur" mc="Standard.Actor" uid="600a8327-b04a-4e01-863d-987cffed5d05"/>
+        <COMPID name="telephone/ordinateur" mc="Standard.Node" uid="7787d464-626e-4d82-99a3-2f993f485997"/>
+        <COMPID name="Membre" mc="Standard.Package" uid="63bd1f39-582d-4277-8d97-c578bca2f47b"/>
+        <COMPID name="Messages" mc="Standard.Package" uid="340a9f10-10e8-4f5f-9cea-bcd33164c503"/>
+        <COMPID name="Proprietes Des Membres" mc="Standard.Package" uid="188085b0-a34b-4ad1-90dc-1fdd01b7e385"/>
+        <COMPID name="Transmission" mc="Standard.Package" uid="739c2d7a-08f6-4ee5-87c9-8c4805b406ef"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="package and deployment (PackageContentStructureDiagramTemplate)" mc="Standard.ClassDiagram" uid="6076da00-f312-4a37-a3af-5711402ceba3"/>
+        <COMPID name="Diagramme de déploiement package and deployment" mc="Standard.DeploymentDiagram" uid="61d05222-4d09-4be6-a210-3b4c24c7dfde"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

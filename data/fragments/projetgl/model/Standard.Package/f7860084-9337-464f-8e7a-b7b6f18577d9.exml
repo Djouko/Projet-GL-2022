@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projet1" version="4">
+  <OBJECT>
+    <ID name="projet1" mc="Standard.Package" uid="f7860084-9337-464f-8e7a-b7b6f18577d9"/>
+    <PID name="projetgl" mc="Standard.Project" uid="d1ebbf12-8b1d-4f84-8764-bd71a71ef83d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projet1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="ba968c0f-5d27-48c5-b28d-9edab25795f0"/>
+        <COMPID name="Activity1" mc="Standard.Activity" uid="b0b9626e-2534-4f2f-923a-333c0847af78"/>
+        <COMPID name="Activity2" mc="Standard.Activity" uid="a6d5b0c8-33d1-45e1-b88b-ca56d789a469"/>
+        <COMPID name="Activity3" mc="Standard.Activity" uid="dd6681b3-c2e9-476e-88be-61bab9c3e357"/>
+        <COMPID name="Activity4" mc="Standard.Activity" uid="7b765834-a7b8-4235-9056-e51fed157a43"/>
+        <COMPID name="Activity5" mc="Standard.Activity" uid="8e92cca0-9290-411e-b946-33b9c447b4f5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
